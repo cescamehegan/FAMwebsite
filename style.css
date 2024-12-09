@@ -1,0 +1,249 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
+
+body {
+    color: #1b0233 !important;
+
+}
+
+h2, h3, h4, h5, h6 {
+  color: #1b0233 !important;
+}
+
+p {
+   color: #1b0233;
+
+}
+
+
+body, p, a, li, span, div{
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+
+
+#welcome {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    padding: 20px; 
+}
+
+.text-content {
+    flex: 0 0 60%;
+    margin-right: 20px; 
+}    
+
+.carousel-container {
+    flex: 1; 
+    max-width: 30%; 
+    height: auto; 
+}
+
+.carousel-inner img {
+    width: 100%; 
+    height: auto; 
+}
+
+
+.text-large h1 {
+  font-size: 5rem; 
+}
+
+.text-large p {
+  font-size: 2.5rem; 
+  color: whitesmoke !important;
+}
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 2fr));
+  gap: 10px;
+  padding: 20px;
+  max-width: 2000px;                       /* Set a max-width to fit the 3 columns */
+  margin: 0 auto;   
+}
+
+
+.d7 {
+    text-align: center;
+}
+
+.pusotext {
+    text-align: center;
+}
+
+.philanthropy-image {
+  position: relative;
+  background-size: cover;
+  height: 400px; /* Adjust based on your design */
+}
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+  padding: 20px;
+  text-align: center;
+  width: 80%;
+}
+blockquote {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+footer {
+  font-size: 1rem;
+  text-align: right;
+}
+
+
+.divider-text {
+  text-align: center;
+  font-size: 2rem; 
+  margin: 2rem 0; 
+}
+
+
+.red-text, .yellow-text, .blue-text, .red-text1, .yellow-text1, .blue-text1, .blue-text2 {
+  font-weight: bold; 
+}
+
+.red-text {
+  color: #ec435c;
+  margin-right: 100px; 
+}
+
+.yellow-text {
+  color: #f7d446;
+  margin-right: 100px;
+}
+
+.blue-text {
+  color: #4494d3;
+}
+
+.red-text1 {
+  color: #ec435c;
+  margin-right: 50px; 
+}
+
+.yellow-text1 {
+  color: #f7d446;
+  margin-right: 50px;
+}
+
+.blue-text1 {
+  color: #4494d3;
+  margin-right: 50px;
+}
+
+.blue-text2 {
+  color: #4494d3;
+}
+
+
+.btn-primary {
+  background-color: #4494d3; 
+  border-color: #4494d3; 
+}
+
+/*  hover effect */
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: ##3287c9; 
+  border-color: ##3287c9;
+}
+
+
+.bg-light {
+  background-color: #f7f7f2 !important; 
+}
+
+
+.navbar {
+  background-color: #f7f7f2  !important; 
+}
+
+
+.navbar .nav-link {
+  color: #1b0233 !important; 
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+
+.navbar .nav-link:hover {
+  color: #4b2579 !important; 
+}
+
+
+.navbar-brand {
+  color: #1b0233 !important; 
+}
+
+
+
+
+.text-muted {
+  color: #4b2579 !important;
+}
+
+.bg-secondary {
+  border: 20px solid #f7f7f2; 
+  border-radius: 8px; 
+  padding: 15px; 
+  background-color: #4494d3 !important; 
+  color: whitesmoke !important;
+}
+
+footer.bg-footer {
+  padding: 10px 15px;
+  background-color: #1b0233; 
+  color: whitesmoke; 
+}
+
+footer.bg-footer * {
+  color: whitesmoke; 
+}
+
+footer.bg-footer a {
+  color: whitesmoke; 
+  text-decoration: none; 
+}
+
+footer.bg-footer a:hover {
+  text-decoration: underline; 
+}
+
+footer.bg-footer p, footer.bg-footer strong {
+  color: whitesmoke; 
+}
+
+
+
+
+/*COLOR LIST*
+logo:
+  purple: #3d0770
+  gold: #beb067
+
+PUSO LOGO
+  red: #ec435c
+  Blue: #4494d3
+  yellow: #f7d446
+
+additional colors: 
+  light purple: #eae4f0 
+  light gold: #f2efdf 
+    #f5f3e9
+  off white: #f7f7f2 
+    (replaced light grey, bg-light, nav bar) 
+  dark purple: #1b0233
+
